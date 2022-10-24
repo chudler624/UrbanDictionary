@@ -1,0 +1,9 @@
+﻿@model List<WordModel>
+
+@foreach(var item in Model)
+    {
+      <div>@item.Word</div>
+      <div>@item.Definition</div>
+      @*<div>@item.SoundUrls</div>*@
+      <div>@item.Example</div>
+    }
