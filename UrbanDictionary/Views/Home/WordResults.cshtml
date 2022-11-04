@@ -1,9 +1,43 @@
 ﻿@model List<WordModel>
 
-@foreach(var item in Model)
+
+
+    <head><link rel="stylesheet" href="site.css"></head>
+        <body class="pg2">
+
+    
+    
+            @foreach(var item in Model)
     {
-      <div>@item.Word</div>
-      <div>@item.Definition</div>
-      @*<div>@item.SoundUrls</div>*@
-      <div>@item.Example</div>
+                    <div class="wordBox">
+                         <div id="word">@item.Word</div>
+                          <br/>
+
+                        <div id="definition">@item.Definition</div>
+                         <br/>
+
+                         <div id="example">@item.Example</div>
+                         <br/>
+
+                         <div class="line"> 
+                                 <span id="author">@item.Author</span>
+                                 <span id="date">@item.WrittenOn</span>
+                         </div>
+
+                             
+                        <br/>
+                             <div class="thumbBox">
+                                 <table id="table">
+                                     <tr>
+                                        <td><img id="thumbup" src="https://clipart.info/images/ccovers/1531011081thumbs-up-emoji.png" width="50" height="50"/></td>
+                                        <td><div id="up">@item.ThumbsUp</div></td>
+                                        <td><img id="thumbdown" src="https://images.emojiterra.com/google/noto-emoji/v2.034/512px/1f44e.png" width="50" height="50"/></td>
+                                        <td><div id="down">@item.ThumbsDown</div></td>
+                                     </tr> 
+                                 </table>
+                                 
+                             </div>
+                          <br/>
+                    </div>
     }
+        </body> 

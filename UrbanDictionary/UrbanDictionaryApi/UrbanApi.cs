@@ -49,7 +49,12 @@ namespace UrbanDictionary.UrbanDictionaryApi
                         Word = item.word,
                         Definition = item.definition,
                         SoundUrls = item.sound_urls,
-                        Example = item.example
+                        Example = item.example,
+                        Author = item.author,
+                        WrittenOn=item.written_on,
+                        ThumbsUp=item.thumbs_up,
+                        ThumbsDown=item.thumbs_down
+
 
                     }) ;
 

@@ -16,3 +16,97 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+#urban {
+    text-align:center;
+    padding: 20px;
+   
+}
+
+.search {
+    text-align: center;
+    margin:50px 200px 0px 200px;
+    -webkit-border-radius:5px;
+}
+
+#searchbar{
+   /* text-align:center;
+    width: 50%;
+    border-radius:10%;*/
+}
+
+#search button{
+
+}
+
+/*Results Page*/
+
+.pg2 {
+    background-image: url('https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/65/5c/66/655c66d2-a1c3-29df-cb0e-d8be36936973/source/512x512bb.jpg');
+    background-repeat: repeat;
+    background-size: 10%;
+    /*background-size: 180px;*/
+    background-attachment:fixed;
+}
+
+.wordBox{      
+    border-block: 3px solid black;
+    background-color:lightskyblue;     
+
+}
+
+#word {
+    font-family:Cascade;
+    font-size:30px;
+    color: navy;
+    font-weight: 900;
+    text-decoration: underline;
+    padding:3px;
+    margin:3px;
+}
+
+#definition{
+    font-family:Arial;
+    font-weight:500;
+    padding: 3px;
+    margin:3px;
+}
+
+.line{
+    display:inline;
+}
+
+#author{
+    display:inline;
+    text-align:left;    
+    padding-right:90%;
+    font-weight:700;
+    padding:3px;
+    margin: 3px;
+}
+
+#date{
+    display:inline;
+    text-align:right;
+    padding-left: 80%;
+  
+}
+
+#table{
+    display:block;
+    block-size:fit-content;
+    border:1px solid black;
+    padding:3px;
+    margin:3px;
+    -webkit-border-radius:25px;
+    background-color:white;
+}
+
+#up{
+    font-weight:500;
+}
+
+#down{
+    font-weight:500;
+}
+
