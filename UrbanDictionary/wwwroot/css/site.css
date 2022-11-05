@@ -26,16 +26,18 @@ body {
 .search {
     text-align: center;
     margin:50px 200px 0px 200px;
-    -webkit-border-radius:5px;
+    -webkit-border-radius:25px;
 }
 
 #searchbar{
-   /* text-align:center;
-    width: 50%;
-    border-radius:10%;*/
+    -webkit-border-radius:25px;
 }
 
-#search button{
+#button{
+    
+    -webkit-border-radius:10px;
+    background-color: navy;
+    color:white;
 
 }
 
@@ -88,14 +90,14 @@ body {
 #date{
     display:inline;
     text-align:right;
-    padding-left: 80%;
+    padding-left: 75%;
   
 }
 
 #table{
-    display:block;
+    /*display:block;*/
     block-size:fit-content;
-    border:1px solid black;
+    /*border:1px solid black;*/
     padding:3px;
     margin:3px;
     -webkit-border-radius:25px;
